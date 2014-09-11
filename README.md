@@ -1,4 +1,4 @@
-FacetWP - Time Since Facet
+FacetWP - "Time Since" Facet
 ==================
 
 A [FacetWP](https://facetwp.com/) facet for filtering posts by date / time since a specified interval.
