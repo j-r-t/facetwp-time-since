@@ -16,7 +16,7 @@ A [FacetWP](https://facetwp.com/) facet for filtering posts by date / time since
 * Activate the plugin
 
 ## Setup
-* **Data Source**: select "Post Date", "Post Modified", or a date custom field in the format YYYY-MM-DD
+* **Data Source**: A date; "Post Date", "Post Modified", or a custom field in `YYYY-MM-DD` format
 * **Choices**: the list of choices to display (one per line). The label and formatter are separated by a pipe "|".
 
 ```
