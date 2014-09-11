@@ -11,8 +11,8 @@ A [FacetWP](https://facetwp.com/) facet for filtering posts by date / time since
 
 ## Installation
 * Click the "Download ZIP" button on this page.
-* Unzip the folder and rename it to "facetwp-time-since"
-* Upload the folder into the /wp-content/plugins/ directory
+* Unzip the folder and rename it to `facetwp-time-since`
+* Upload the folder into the `/wp-content/plugins/` directory
 * Activate the plugin
 
 ## Setup
