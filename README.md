@@ -17,7 +17,7 @@ A [FacetWP](https://facetwp.com/) facet for filtering posts by date / time since
 
 ## Setup
 * **Data Source**: select "Post Date", "Post Modified", or a date custom field in the format YYYY-MM-DD
-* **Choices**: the list of choices to display (one per line). The label and formatter are separated by a pipe "|". The **formatter** is based on PHP's `strtotime` function.
+* **Choices**: the list of choices to display (one per line). The label and formatter are separated by a pipe "|".
 
 ```
 Past Day | -1 day
@@ -27,3 +27,5 @@ Past 90 Days | -90 days
 Past Year | -1 year
 Past 5 Years | -5 years
 ```
+
+The **formatter** is based on PHP's `strtotime` function ([see example](http://php.net/manual/en/function.strtotime.php#example-2417)).
