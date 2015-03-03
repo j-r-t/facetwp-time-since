@@ -6,7 +6,7 @@ Description: "Time Since" facet
 Version: 1.0
 Author: Matt Gibbs
 Author URI: https://facetwp.com/
-GitHub Plugin URI: https://github.com/FacetWP/facetwp-radio
+GitHub Plugin URI: https://github.com/FacetWP/facetwp-time-since
 
 Copyright 2014 Matt Gibbs
 
