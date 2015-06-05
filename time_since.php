@@ -18,7 +18,7 @@ class FacetWP_Facet_Time_Since
         $where_clause = $params['where_clause'];
 
         $sql = "
-        SELECT DISTINCT f.facet_value
+        SELECT f.facet_value
         FROM {$wpdb->prefix}facetwp_index f
         WHERE f.facet_name = '{$facet['name']}' $where_clause";
         $results = $wpdb->get_results( $sql );

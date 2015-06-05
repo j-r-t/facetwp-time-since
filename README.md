@@ -6,7 +6,7 @@ A [FacetWP](https://facetwp.com/) facet for filtering posts by date / time since
 ![screenshot](http://i.imgur.com/seie2lY.png)
 
 ## Requirements
-* FacetWP 1.7.5 or higher
+* FacetWP 2.1 or higher
 * WordPress 3.8 or higher
 
 ## Installation
