@@ -18,7 +18,7 @@ class FacetWP_Facet_Time_Since
         $where_clause = $params['where_clause'];
 
         $sql = "
-        SELECT f.facet_value
+        SELECT f.facet_display_value
         FROM {$wpdb->prefix}facetwp_index f
         WHERE f.facet_name = '{$facet['name']}' $where_clause";
         $results = $wpdb->get_results( $sql );
@@ -37,7 +37,7 @@ class FacetWP_Facet_Time_Since
 
         // Loop through the results
         foreach ( $results as $result ) {
-            $post_time = (int) strtotime( $result->facet_value );
+            $post_time = (int) strtotime( $result->facet_display_value );
             foreach ( $choices as $key => $choice ) {
                 $choice_time = $choice['seconds'];
 
