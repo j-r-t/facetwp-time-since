@@ -141,7 +141,7 @@ class FacetWP_Facet_Time_Since
     function front_scripts() {
 ?>
 
-<link href="<?php echo WP_CONTENT_URL; ?>/plugins/facetwp-time-since/assets/css/front.css" rel="stylesheet">
+<link href="<?php echo plugin_dir_url( __FILE__ ) ?>assets/css/front.css" rel="stylesheet">
 
 <script>
 (function($) {
